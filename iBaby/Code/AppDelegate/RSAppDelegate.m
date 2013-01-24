@@ -12,6 +12,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // Display StatusBar
+    [UIApplication sharedApplication].statusBarHidden = NO;
+    
     // Override point for customization after application launch.
     return YES;
 }
